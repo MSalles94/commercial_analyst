@@ -1,2 +1,8 @@
-# commercial_analyst
-Some commercial issues to deal with.
+# Commercial Analyst
+
+Some commercial common issues to deal with.
+
+
+## Data
+The data is synthetic. 
+
