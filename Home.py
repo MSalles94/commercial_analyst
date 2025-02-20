@@ -7,16 +7,10 @@ st.set_page_config(
     layout='wide'
 )
 
-# Sidebar
 #======================================================
-#image
-image_path='assets/Beer-Logo-Graphics-39523999-1.jpg'
-image=Image.open(image_path)
-st.sidebar.image(image,width=120)
-#title
-st.sidebar.markdown('# Beverage Bravus Company')
-st.sidebar.markdown('## Strength and flavor in every sip.')
-st.sidebar.markdown("""---""")
+# Sidebar
+from scripts.page_sidebar import *
+cia_logo(st)
 #======================================================
 # Contnent
 st.write('# Beverage Bravus Company Dashboard')
